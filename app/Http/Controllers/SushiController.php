@@ -58,7 +58,7 @@ class SushiController extends Controller
             case self::SUSHI_LIST[self::SERIOLA]:
                 $res_text = 'http://cdn.amanaimages.com/preview640/11012020150.jpg';
                 break;
-            case 'リスト':
+            case 'メニュー':
                 $res_text = implode(', ', self::SUSHI_LIST);
                 break;
         }
